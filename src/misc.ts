@@ -122,7 +122,7 @@ export type PlainObject = Record<number | string | symbol, unknown>;
  * Predefined sizes (in Bytes) of specific parts of JSON structure.
  */
 export enum JsonSize {
-  Null = 4,
+  Null = 5,
   Comma = 1,
   Wrapper = 1,
   True = 4,
