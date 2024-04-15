@@ -54,7 +54,7 @@ jobs:
           key: ${{ github.sha }}
       - name: Dry Run Publish
         # omit npm-token token to perform dry run publish
-        uses: rickycodes/action-npm-publish@e7e83fbe063dbbb263b246d6b695acaaf417601f
+        uses: rickycodes/action-npm-publish@0d09c5ae26c85259fcbdc123450e8640d00613e7
         with:
           slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           subteam: S042S7RE4AE # @metamask-npm-publishers
